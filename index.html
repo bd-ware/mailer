@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Send Email</title>
+</head>
+<body>
+  <h2>Send Email using PHPMailer</h2>
+  <form action="send.php" method="POST">
+    
+    <label for="to">Recipient Email:</label><br>
+    <input type="email" id="to" name="to" required><br><br>
+    
+    <label for="subject">Subject:</label><br>
+    <input type="text" id="subject" name="subject" required><br><br>
+    
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" required></textarea><br><br>
+    
+    <label for="sender">Sender Name:</label><br>
+    <input type="text" id="sender" name="sender" required><br><br>
+    
+    <label for="username">Your Gmail Address:</label><br>
+    <input type="email" id="username" name="username" required><br><br>
+    
+    <label for="password">Your Gmail Password / App Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+    
+    <button type="submit">Send Email</button>
+  </form>
+</body>
+</html>
